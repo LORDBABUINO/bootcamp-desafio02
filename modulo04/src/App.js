@@ -1,6 +1,9 @@
 import React from 'react'
 import './App.css'
 
-const App = () => <h1>Hello World</h1>
+import profile from './assets/profile.jpg'
+import TechList from './components/TechList'
+
+const App = () => <TechList/>
 
 export default App
